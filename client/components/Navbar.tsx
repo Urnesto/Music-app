@@ -22,7 +22,6 @@ import { useRouter } from 'next/router';
 const menuItems = [
     { text: 'Home', href: '/' },
     { text: 'Track list', href: '/tracks' },
-    { text: 'Album list', href: '/albums' },
 ]
 export default function Navbar() {
     const theme = useTheme();
@@ -51,7 +50,6 @@ export default function Navbar() {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" noWrap component="div">
-                        Persistent drawer
                     </Typography>
                 </Toolbar>
             </AppBar>

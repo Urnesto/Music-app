@@ -11,7 +11,7 @@ import * as path from 'path';
     }),
 
     MongooseModule.forRoot(
-      'mongodb+srv://admin:admin@cluster0.vic05or.mongodb.net/?retryWrites=true&w=majority',
+      'mongodb+srv://admin:admin@cluster0.datquzm.mongodb.net/?retryWrites=true&w=majority',
     ),
     TrackModule,
     FileModule,
